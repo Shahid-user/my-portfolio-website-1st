@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 15px;
+    background-color: #0f1111;
+    flex-wrap: wrap;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    height: 50px;
+    width: 100%;
+    background-image: url("shahid3.jpg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 7px;
+}
+
+/* second box */
+
+.navbar-first {
+    width: 60%;
+}
+
+.nav-anchor a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-anchor a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* third box */
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 120px;
+    
+}
+
+.btn1 {
+    height: 30px;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+}
+
+.btn1:hover {
+    background-color: red;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-anchor {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+}
+
+
+
+/* hero section */
+
+
+.hero-section {
+    display: flex;
+    justify-content: space-evenly;
+    height: 550px;
+    background-color: aliceblue;
+}
+
+.first{
+    margin-top: 70px;
+    height: 400px;
+    width: 60%;
+}
+
+.heading3 {
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+
+.heading1 {
+    margin-left: 100px;
+}
+
+.heading2 {
+    margin-left: 100px;
+} 
+
+.first-hero {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.btn-first {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid brown;
+    border-radius: 4px;
+    margin-left: 100px;
+    padding: 6px 8px;
+    cursor: pointer;
+} 
+
+.btn-first:hover {
+    background-color: brown;
+    color: white;
+}
+
+.btn-second {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: 2px solid brown;
+    border-radius: 4px;
+    padding: 6px 8px;
+    cursor: pointer;
+} 
+
+
+.btn-second:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+.second {
+    margin-top: 80px;
+    margin-right: 40px;
+    height: 400px;
+    width: 30%;
+    background-image: url("image.jpg4.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 75%;
+    background-color: grey;
+}
+
+
+/* hero-section-second */
+
+.hero-section-secd {
+    display: flex;
+    height: 550px;
+    background-color: #0f1111;
+}
+
+.firstt {
+    height: 400px;
+    width: 30%;
+    margin: 80px;
+    margin-left: 40px;
+    border-radius: 70%;
+    background-image: url("image.jpg3.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: grey;
+}
+
+.secondd {
+    height: 400px;
+    width: 55%;
+    margin: 10px;
+}
+
+
+.firstt-hero {
+    margin-top: 10px;
+    color: white;
+}
+
+.head {
+    margin-top: 140px;
+    color: red;
+    text-decoration: underline;
+}
+
+
+.head1 {
+    color: white;
+    padding-top: 15px;
+}
+
+.btn3 {
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.btn3:hover {
+    background-color: red;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+  .hero-section,
+  .hero-section-secd {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .first,
+  .second,
+  .firstt,
+  .secondd {
+    width: 90%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .heading1,
+  .heading2,
+  .heading3,
+  .first-hero,
+  .btn-first,
+  .btn-second {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .btn-first,
+  .btn-second {
+    display: inline-block;
+    margin: 10px 5px;
+  }
+
+  .head {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .head1,
+  .firstt-hero,
+  .btn3 {
+    text-align: center;
+  }
+}
+
+
+
+
+/* Contact hero */
+
+
+.Contact-hero {
+    height: 550px;
+    background-color: aquamarine;
+}
+
+.heading5 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+table {
+    margin-left: 35%;
+    background-color: lightpink;
+    padding: 50px;
+    border-radius: 5px;
+
+}
+
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: bisque;
+    margin: 5px;
+}
+
+textarea {
+    background-color: bisque;
+    margin: 5px;
+    border-radius: 4px;
+    width: 200px;
+}
+
+button {
+    background-color: chocolate;
+    color: white;
+    border: 2px solid white;
+    margin-left: 25%;
+    padding: 6px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  @media (max-width: 768px) {
+  table {
+    margin-left: 0;
+    margin: 0 auto;
+    padding: 30px 20px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+
+
+.footer {
+  height: 170px;
+  background-color: #0f1111;
+}
+
+.footer-heading {
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+}
+
+.footer-para {
+  text-align: center;
+  color: white;
+  min-width: 80%;
+  padding-top: 15px;
+}
+
+.footer-icon {
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  padding-top: 15px;
+}
+
+
+
+a {
+  color: white;
+}
+
+.footer-icon a:hover {
+  color: blueviolet; 
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+
+
+@media (max-width: 600px) {
+  .footer {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .footer-heading {
+    font-size: 1.2rem;
+  }
+
+  .footer-para {
+    font-size: 0.8rem;
+  }
+
+  .footer-icon {
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
